@@ -1,0 +1,37 @@
+xst -intstyle ise -ifn "C:/Users/081160008/segmentos/pinagem.xst" -ofn "C:/Users/081160008/segmentos/pinagem.syr" 
+xst -intstyle ise -ifn "C:/Users/081160008/segmentos/pinagem.xst" -ofn "C:/Users/081160008/segmentos/pinagem.syr" 
+xst -intstyle ise -ifn "C:/Users/081160008/segmentos/pinagem.xst" -ofn "C:/Users/081160008/segmentos/pinagem.syr" 
+xst -intstyle ise -ifn "C:/Users/081160008/segmentos/pinagem.xst" -ofn "C:/Users/081160008/segmentos/pinagem.syr" 
+xst -intstyle ise -ifn "C:/Users/081160008/segmentos/pinagem.xst" -ofn "C:/Users/081160008/segmentos/pinagem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/081160008/Desktop/pin.ucf -p xc3s100e-cp132-4 pinagem.ngc pinagem.ngd  
+xst -intstyle ise -ifn "C:/Users/081160008/segmentos/pinagem.xst" -ofn "C:/Users/081160008/segmentos/pinagem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/081160008/Desktop/pin.ucf -p xc3s100e-cp132-4 pinagem.ngc pinagem.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o pinagem_map.ncd pinagem.ngd pinagem.pcf 
+par -w -intstyle ise -ol high -t 1 pinagem_map.ncd pinagem.ncd pinagem.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pinagem.twx pinagem.ncd -o pinagem.twr pinagem.pcf 
+bitgen -intstyle ise -f pinagem.ut pinagem.ncd 
+xst -intstyle ise -ifn "C:/Users/081160008/segmentos/pinagem.xst" -ofn "C:/Users/081160008/segmentos/pinagem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/081160008/Desktop/pin.ucf -p xc3s100e-cp132-4 pinagem.ngc pinagem.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o pinagem_map.ncd pinagem.ngd pinagem.pcf 
+par -w -intstyle ise -ol high -t 1 pinagem_map.ncd pinagem.ncd pinagem.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pinagem.twx pinagem.ncd -o pinagem.twr pinagem.pcf 
+bitgen -intstyle ise -f pinagem.ut pinagem.ncd 
+xst -intstyle ise -ifn "C:/Users/081160008/segmentos/pinagem.xst" -ofn "C:/Users/081160008/segmentos/pinagem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/081160008/Desktop/pin.ucf -p xc3s100e-cp132-4 pinagem.ngc pinagem.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o pinagem_map.ncd pinagem.ngd pinagem.pcf 
+par -w -intstyle ise -ol high -t 1 pinagem_map.ncd pinagem.ncd pinagem.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pinagem.twx pinagem.ncd -o pinagem.twr pinagem.pcf 
+bitgen -intstyle ise -f pinagem.ut pinagem.ncd 
+xst -intstyle ise -ifn "C:/Users/081160008/segmentos/pinagem.xst" -ofn "C:/Users/081160008/segmentos/pinagem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/081160008/Desktop/pin.ucf -p xc3s100e-cp132-4 pinagem.ngc pinagem.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o pinagem_map.ncd pinagem.ngd pinagem.pcf 
+par -w -intstyle ise -ol high -t 1 pinagem_map.ncd pinagem.ncd pinagem.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pinagem.twx pinagem.ncd -o pinagem.twr pinagem.pcf 
+bitgen -intstyle ise -f pinagem.ut pinagem.ncd 
+bitgen -intstyle ise -f pinagem.ut pinagem.ncd 
+xst -intstyle ise -ifn "C:/Users/081160008/segmentos/pinagem.xst" -ofn "C:/Users/081160008/segmentos/pinagem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/081160008/Desktop/pin.ucf -p xc3s100e-cp132-4 pinagem.ngc pinagem.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o pinagem_map.ncd pinagem.ngd pinagem.pcf 
+par -w -intstyle ise -ol high -t 1 pinagem_map.ncd pinagem.ncd pinagem.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pinagem.twx pinagem.ncd -o pinagem.twr pinagem.pcf 
+bitgen -intstyle ise -f pinagem.ut pinagem.ncd 
